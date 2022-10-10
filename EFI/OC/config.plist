@@ -358,6 +358,44 @@
 				<key>BaseSkip</key>
 				<integer>0</integer>
 				<key>Comment</key>
+				<string>Rename_HECI to IMEI, Intel Management Engine</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				SEVDSQ==
+				</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>
+				</data>
+				<key>OemTableId</key>
+				<data>
+				</data>
+				<key>Replace</key>
+				<data>
+				SU1FSQ==
+				</data>
+				<key>ReplaceMask</key>
+				<data>
+				</data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>
+				</data>
+			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
 				<string>Rename _WAK to ZWAK</string>
 				<key>Count</key>
 				<integer>0</integer>
@@ -515,6 +553,15 @@
 				<string>USB controller</string>
 				<key>model</key>
 				<string>Cannon Lake PCH USB 3.1 xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>Internal@0,23,0</string>
+				<key>device_type</key>
+				<string>SATA controller</string>
+				<key>model</key>
+				<string>Cannon Lake Mobile PCH SATA AHCI Controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)/Pci(0x0,0x0)</key>
 			<dict>
@@ -1483,8 +1530,6 @@
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
-				<key>#INFO (prev-lang:kbd)</key>
-				<string>en:252 (ABC), set 656e3a323532</string>
 				<key>ForceDisplayRotationInEFI</key>
 				<integer>0</integer>
 				<key>SystemAudioVolume</key>
@@ -1492,7 +1537,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v -wegnoegpu -igfxmpc</string>
+				<string>-wegnoegpu -igfxmpc igfxfw=2</string>
 				<key>csr-active-config</key>
 				<data>
 				7w8AAA==
@@ -1563,14 +1608,14 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02931306J9N9PR1F</string>
+			<string>C020334034NN9PR8C</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>1537</integer>
 			<key>ROM</key>
 			<data>
-			ZKPLObqT
+			ABD6wJ/e
 			</data>
 			<key>SpoofVendor</key>
 			<true/>
@@ -1579,9 +1624,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro16,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02Z50VEMD6N</string>
+			<string>C02D7HZLMD6N</string>
 			<key>SystemUUID</key>
-			<string>DD72C031-B149-4BC7-B18D-6ACA9E5208D5</string>
+			<string>EC84F267-44C0-4DAF-8842-626D21B18B9A</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
