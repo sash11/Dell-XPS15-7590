@@ -1,4 +1,4 @@
-# Gigabyte-BXi5-4570R with Opencore 0.7.7
+# Dell XPS15-7590 with Opencore 0.8.5
 <p align="center">
   <img src="Docs/AboutThisMac.png" align=center">
  </p>
