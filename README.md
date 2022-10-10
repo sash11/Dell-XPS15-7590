@@ -33,6 +33,11 @@ setup_var_3 0x789 0x00
 
 Here is bios table section extracted with UEFITool:
 ```
+0x4C725     One Of: CFG Lock, VarStoreInfo (VarOffset/VarName): 0x6ED, VarStore: 0x1, QuestionId: 0x380, Size: 1, Min: 0x0, Max 0x1, Step: 0x0 {05 91 B0 03 B1 03 80 03 01 00 ED 06 10 10 00 01 00}
+0x4C736       One Of Option: Disabled, Value (8 bit): 0x0 {09 07 04 00 00 00 00}
+0x4C73D       One Of Option: Enabled, Value (8 bit): 0x1 (default) {09 07 03 00 30 00 01}
+0x4C744     End One Of {29 02}
+
 0x54547     One Of: DVMT Pre-Allocated, VarStoreInfo (VarOffset/VarName): 0xA10, VarStore: 0x1, QuestionId: 0x611, Size: 1, Min: 0x0, Max 0xFE, Step: 0x0 {05 91 C8 05 DB 05 11 06 01 00 10 0A 10 10 00 FE 00}
 0x54558       Default: DefaultId: 0x0, Value (8 bit): 0x2 {5B 06 00 00 00 02}
 0x5455E       One Of Option: 0M, Value (8 bit): 0x0 {09 07 C9 05 00 00 00}
