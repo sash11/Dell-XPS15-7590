@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BuildMachineOSBuild</key>
+	<string>21G115</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.AppleNVMe.kext</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>IONVMeFamily</string>
+	<key>CFBundlePackageType</key>
+	<string>KEXT</string>
+	<key>CFBundleShortVersionString</key>
+	<string>3.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>1.2</string>
+	<key>IOKitPersonalities_x86_64</key>
+	<dict>
+		<key>GenericInternalNVMeSSD</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.apple.iokit.IONVMeFamily</string>
+			<key>Chipset Name</key>
+			<string>SSD Controller</string>
+			<key>IOClass</key>
+			<string>IONVMeController</string>
+			<key>IOPCIMatch</key>
+			<string>0xa804144d 0xa806144d 0xa808144d</string>
+			<key>IOPCIPauseCompatible</key>
+			<true/>
+			<key>IOProbeScore</key>
+			<integer>200</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+			<key>IOUnitName</key>
+			<string>disk</string>
+			<key>Physical Interconnect</key>
+			<string>PCI-Express</string>
+			<key>Physical Interconnect Location</key>
+			<string>Internal</string>
+			<key>Vendor Name</key>
+			<string>Apple</string>
+		</dict>
+	</dict>
+	<key>OSBundleCompatibleVersion</key>
+	<string>1.2</string>
+	<key>OSBundleRequired</key>
+	<string>Root</string>
+</dict>
+</plist>
