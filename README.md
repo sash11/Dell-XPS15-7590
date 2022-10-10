@@ -11,7 +11,7 @@
 | ------------- | --------- |
 | CPU | i7-9750H 6 cores and 12 threads @ 2.6GHz |
 | RAM | 2x16GB 2666MHz DDR4 SO-DIMM Crucial CT2K16G4SFRA266 |
-| Audio Chipset | Realtek ALC289. Works with Layout-id 30 |
+| Audio Chipset | Realtek ALC298. Works with Layout-id 30 |
 | GPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | Fenvi BCM94360NG |
 | OS Disk | 512GB Samsung 970 Pro |
