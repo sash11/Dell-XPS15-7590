@@ -68,5 +68,5 @@ Here is bios table section extracted with UEFITool:
 ```
 ## What is working/not working
 I am not able to test HDMI Vidao/Autio ouput as well as thunderbolt video output. Touchscreen is not working (work in progress)
-Screen brightness control with Fn F11/F12 is not woring (work in progress)
+Screen brightness control with Fn F11/F12 is not woring. Use Fn+S/B instead (work in progress). TouchID will not work at all.
 Card reader is working. WiFi/Bluetooth working.
