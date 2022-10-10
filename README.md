@@ -13,7 +13,7 @@
 | RAM | 2x16GB 2666MHz DDR4 SO-DIMM Crucial CT2K16G4SFRA266 |
 | Audio Chipset | Realtek ALC298. Works with Layout-id 30 |
 | GPU | Intel UHD Graphics 630 |
-| WiFi & Bluetooth | Fenvi BCM94360NG |
+| WiFi & Bluetooth | Fenvi BCM94360NG. Works OOB |
 | OS Disk | 512GB Samsung 970 Pro |
 | macOS | Monterey 12.6/OpenCore 0.8.5
 
