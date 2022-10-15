@@ -8,6 +8,9 @@
  <p align="center">
   <img src="Docs/USB.png" align=center">
  </p>
+ <p align="center">
+  <img src="Docs/Peripherals.png" align=center">
+ </p>
 
 ## Specs
 | **Component** | **Model** |
