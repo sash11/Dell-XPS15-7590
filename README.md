@@ -24,7 +24,7 @@
 | macOS | Monterey 12.6/OpenCore 0.8.5
 
 ## BIOS
-- Press F2 to enter the BIOS. Use latest available bios for the system 1.18.
+- Press F2 to enter the BIOS. Use latest available bios for the system 1.19.0
 - SATA Mode AHCI
 - All settings can be turned on, including VT-D.
 
