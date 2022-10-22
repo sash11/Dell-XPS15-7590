@@ -82,3 +82,6 @@ All Apple sevices are working, including Apple TV+.
 I am not able to test HDMI Video/Autio ouput, phone jack as well as thunderbolt video output. Touchscreen is not working (work in progress)
 Screen brightness control with Fn+F11/F12 is not woring. Use Fn+S/B instead (work in progress). TouchID will not work at all.
 Card reader is working. WiFi/Bluetooth working.
+
+## Extra
+I'm tripple booting between macOS, Windows 11 and Ubuntu 22.10, using OpenCore as the bootloader. macOS is installed on internal NVMe drive, Windows is running on external NVMe enclosure, connected to USB-C 10GB port, Ubuntu is running on SDCard.
