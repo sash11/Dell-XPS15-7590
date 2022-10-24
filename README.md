@@ -11,6 +11,10 @@
  <p align="center">
   <img src="Docs/Peripherals.png" align=center">
  </p>
+  </p>
+ <p align="center">
+  <img src="Docs/TrippleBoot.jpg" align=center">
+ </p>
 
 ## Specs
 | **Component** | **Model** |
