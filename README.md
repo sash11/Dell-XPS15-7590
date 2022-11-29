@@ -1,6 +1,6 @@
 # Dell XPS15-7590 with Opencore 0.8.6
 <p align="center">
-  <img src="Docs/AboutThisMac.png" align=center">
+  <img src="Docs/AboutThisMac.jpg" align=center">
  </p>
  <p align="center">
   <img src="Docs/PCI.png" align=center">
