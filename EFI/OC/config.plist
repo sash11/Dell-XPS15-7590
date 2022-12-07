@@ -764,6 +764,10 @@
 				<data>
 				BAAAAA==
 				</data>
+				<key>igfxfw</key>
+				<data>
+				AgAAAA==
+				</data>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1405,6 +1409,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>None</string>
+			<key>HibernateSkipsPicker</key>
+			<false/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -1587,7 +1593,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v -wegnoegpu -igfxmpc igfxfw=2</string>
+				<string>-wegnoegpu -igfxmpc</string>
 				<key>csr-active-config</key>
 				<data>
 				7w8AAA==
@@ -1744,7 +1750,7 @@
 			<key>AudioOutMask</key>
 			<integer>1</integer>
 			<key>AudioSupport</key>
-			<true/>
+			<false/>
 			<key>DisconnectHda</key>
 			<false/>
 			<key>MaximumGain</key>
