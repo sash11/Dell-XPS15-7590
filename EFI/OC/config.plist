@@ -24,19 +24,11 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-I2CX.aml</string>
+				<string>SSDT-NVIDIA-off</string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
-				<string>SSDT-I2CX.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-PCI0.aml</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PCI0.aml</string>
+				<string>SSDT-NVIDIA-off</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1593,7 +1585,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-wegnoegpu -igfxmpc</string>
+				<string>-v -igfxmpc</string>
 				<key>csr-active-config</key>
 				<data>
 				7w8AAA==
