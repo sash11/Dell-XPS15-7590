@@ -24,11 +24,19 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-NVIDIA-off</string>
+				<string>SSDT-I2CX.aml</string>
+				<key>Enabled</key>
+				<false/>
+				<key>Path</key>
+				<string>SSDT-I2CX.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-NVIDIA-off.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-NVIDIA-off</string>
+				<string>SSDT-NVIDIA-off.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -90,7 +98,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Path</key>
 				<string>SSDT-DMAR.aml</string>
 			</dict>
@@ -143,7 +151,7 @@
 				<key>Comment</key>
 				<string>Delete original DMAR table in ACPI</string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>OemTableId</key>
 				<data>
 				AAAAAA==
@@ -1305,7 +1313,7 @@
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				cJ0AAA==
@@ -1386,7 +1394,7 @@
 			<key>FuzzyMatch</key>
 			<true/>
 			<key>KernelArch</key>
-			<string>x86_64</string>
+			<string>Auto</string>
 			<key>KernelCache</key>
 			<string>Auto</string>
 		</dict>
