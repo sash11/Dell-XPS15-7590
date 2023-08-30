@@ -1,4 +1,4 @@
-# Dell XPS15-7590 with Opencore 0.8.8
+# Dell XPS15-7590 with Opencore 0.9.3
 <p align="center">
   <img src="Docs/AboutThisMac.jpg" align=center">
  </p>
@@ -20,12 +20,12 @@
 | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | i7-9750H 6 cores and 12 threads @ 2.6GHz |
-| RAM | 2x16GB 2666MHz DDR4 SO-DIMM Crucial CT2K16G4SFRA266 |
+| RAM | 2x32GB 3200MHz DDR4 SO-DIMM Crucial CT32G4SFD832A |
 | Audio Chipset | Realtek ALC298. Works with Layout-id 30 |
 | GPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | Fenvi BCM94360NG. Works OOB |
 | OS Disk | 512GB Samsung 970 Pro |
-| macOS | Ventura 13.1/OpenCore 0.8.8
+| macOS | Ventura 13.5.1/OpenCore 0.9.3
 
 ## BIOS
 - Press F2 to enter the BIOS. Use latest available bios for the system 1.19.0
