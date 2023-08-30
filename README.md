@@ -28,7 +28,7 @@
 | macOS | Ventura 13.5.1/OpenCore 0.9.3
 
 ## BIOS
-- Press F2 to enter the BIOS. Use latest available bios for the system 1.19.0
+- Press F2 to enter the BIOS. Use latest available bios for the system 1.22.0
 - SATA Mode AHCI
 - All settings can be turned on, including VT-D.
 
