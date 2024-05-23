@@ -1,4 +1,4 @@
-# Dell XPS15-7590 with Opencore 0.9.3
+# Dell XPS15-7590 with Opencore 1.0.0
 <p align="center">
   <img src="Docs/AboutThisMac.jpg" align=center">
  </p>
@@ -25,10 +25,10 @@
 | GPU | Intel UHD Graphics 630 |
 | WiFi & Bluetooth | Fenvi BCM94360NG. Works OOB |
 | OS Disk | 512GB Samsung 970 Pro |
-| macOS | Ventura 13.5.1/OpenCore 0.9.3
+| macOS | Ventura 13.6.7/OpenCore 1.0.0
 
 ## BIOS
-- Press F2 to enter the BIOS. Use latest available bios for the system 1.22.0
+- Press F2 to enter the BIOS. Use latest available bios for the system 1.27.0
 - SATA Mode AHCI
 - All settings can be turned on, including VT-D.
 
